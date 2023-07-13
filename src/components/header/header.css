@@ -1,0 +1,126 @@
+.hederNav-wrapper {
+	display: flex;
+	flex-direction: column;
+
+	background-color: #ffffff;
+	background-image: url('./../../img/heder-bg.png');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: right top;
+
+	font-family: 'DM Sans', sans-serif;
+}
+
+/* Nav */
+
+.nav {
+	height: 164px;
+	color: #ffffff;
+	letter-spacing: normal;
+	padding: 20px 0;
+}
+
+.logo {
+	margin-right: auto;
+}
+
+.nav-row {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	column-gap: 30px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+}
+
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	align-items: center;
+	column-gap: 40px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.nav-list__link {
+	color: var(--heder-text);
+
+	/* плавность анимации при наведении*/
+	transition: opacity 0.2s ease-in;
+}
+
+.nav-list__link:hover {
+	opacity: 0.7;
+}
+
+.nav-list__link--active {
+	position: relative;
+}
+
+.nav-list__link--active::before {
+	content: '';
+
+	position: absolute;
+	left: 0;
+	top: 100%;
+
+	display: block;
+	height: 2px;
+	width: 100%;
+	background-color: #ffc961;
+}
+
+/* Main header */
+
+.header {
+	padding: 20px 0;
+	min-height: 700px;
+
+	color: #000000;
+}
+
+.header-row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-row__ins {
+	display: flex;
+	justify-content: flex-end;
+}
+.header-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.header__title {
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.header__title strong {
+	font-size: 68px;
+	font-weight: 700;
+}
+
+.header__title em {
+	background: #fff0d9;
+}
+
+.header__text {
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 1.333;
+	color: rgba(0, 0, 0, 0.7);
+	font-family: 'Poppoins', sans-serif;
+}
+
+.header__text p + p {
+	margin-top: 0.5em;
+}
