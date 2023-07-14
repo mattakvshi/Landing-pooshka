@@ -1,5 +1,5 @@
 @import './reset.css';
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,700&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@1,700&family=Poppins:wght@400;500;700&display=swap');
 
 html,
 body {
@@ -7,7 +7,7 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 
-	font-family: 'Poppoins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	letter-spacing: -0.5px;
 
 	/* Color mode */
@@ -18,7 +18,7 @@ body {
 /* General */
 
 /* Нам необходима ширина контейнера 1170 пикселей, 1200 пикселей - 15 отступ слева - 15 отступ справа = 1170 пикселей*/
-.conteiner {
+.container {
 	margin: 0 auto;
 	padding: 0 15px;
 	max-width: 1440px;

@@ -6,7 +6,7 @@
 import './choice.css';
 
 const Choice = () => {
-	return <div className='choise'></div>;
+	return <div className='choice'></div>;
 };
 
 export default Choice;
