@@ -1,0 +1,33 @@
+.section-indicators {
+  display: flex;
+  align-self: center;
+  padding-top: 193px;
+}
+.indicators-wrapper {
+  background-color: #6640ff;
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 20px;
+  max-width: 1240px;
+  max-height: 240px;
+}
+.indicator {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.indicator-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+}
+.indicator-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}

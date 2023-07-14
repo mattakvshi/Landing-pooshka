@@ -1,6 +1,47 @@
-.choice {
-	display: flex;
-	flex-direction: column;
+.section-choice {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.choice-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.section-choice__choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.benefits {
+  display: flex;
+  flex-direction: column;
+}
+.benefit-images {
+  display: flex;
+  flex-direction: column;
+}
+.benefit {
+  display: flex;
+  flex-direction: row;
+}
+.choiceIcon {
+  width: 50px;
+  height: 50px;
+}
 
-	background-color: #ffffff;
+.benefit-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.benefit {
+  width: 500px;
+  height: 150px;
+}
+.benefit-text {
+  font-size: 16px;
+  font-weight: 400;
 }
