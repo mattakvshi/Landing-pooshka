@@ -10,7 +10,7 @@ const Header = () => {
 		<div className='hederNav-wrapper'>
 			{/* <!------------------------------NAV-----------------------------------------> */}
 			<nav className='nav'>
-				<div className='container'>
+				<div className='container-nav'>
 					<div className='nav-row'>
 						<a href='/index.html' className='logo'>
 							<img src={logo} alt='logo' width='517px' height='124px' />
@@ -65,7 +65,7 @@ const Header = () => {
 								</p>
 							</div>
 							<a href='#!' className='btn'>
-								Хочу!
+								Заказать!
 							</a>
 						</div>
 						<div className='header-row__ins'>
