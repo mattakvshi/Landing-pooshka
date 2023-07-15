@@ -3,7 +3,8 @@ import './choice.css';
 import choiceIcon1 from './../../img/choice/choice-icon-1.png';
 import choiceIcon2 from './../../img/choice/choice-icon-2.png';
 import choiceIcon3 from './../../img/choice/choice-icon-3.png';
-import choiceGroup from './../../img/choice/Group.png';
+
+import headerImg from './../../img/header-img4.png';
 
 const Choice = () => {
 	return (
@@ -11,7 +12,7 @@ const Choice = () => {
 			<div className='container'>
 				<div className='section-choice__title'>
 					<h2 className='title-2'>
-						Почему <em>Pooshka</em> это ваш выбор ?
+						Почему <em>потребители</em> выбирают нас?
 					</h2>
 				</div>
 				<div className='choice-wrapper'>
@@ -48,9 +49,11 @@ const Choice = () => {
 					<div className='benefit-images'>
 						<div className='benefit-img__img'>
 							<img
-								src={choiceGroup}
-								alt='choiceGroup'
-								className='choiceGroup'
+								src={headerImg}
+								alt='front-girl'
+								className='front-girl'
+								width='450px'
+								height='600px'
 							/>
 						</div>
 					</div>

@@ -1,9 +1,6 @@
 import './header.css';
 
-import logo from './../../img/logo_Pooshka_124.png';
-
-import frontGirl from './../../img/products/front-girl.png';
-import rightGirl from './../../img/products/right-girl.png';
+import logo from './../../img/logo_Pooshka_x-01-white.png';
 
 const Header = () => {
 	return (
@@ -13,7 +10,7 @@ const Header = () => {
 				<div className='container-nav'>
 					<div className='nav-row'>
 						<a href='/index.html' className='logo'>
-							<img src={logo} alt='logo' width='517px' height='124px' />
+							<img src={logo} alt='logo' width='250px' height='60px' />
 						</a>
 						<ul className='nav-list'>
 							<li className='nav-list__item'>
@@ -51,8 +48,7 @@ const Header = () => {
 						<div className='header-column'>
 							<h1 className='header__title'>
 								<strong>
-									Магазин <br />
-									<em>спортивной </em>
+									Магазин <em>дизайнерской </em>
 									<br />
 									одежды
 								</strong>
@@ -67,23 +63,6 @@ const Header = () => {
 							<a href='#!' className='btn'>
 								Заказать!
 							</a>
-						</div>
-						<div className='header-row__ins'>
-							<img
-								src={frontGirl}
-								alt='front-girl'
-								className='front-girl'
-								width='175px'
-								height='700px'
-							/>
-							<img
-								src={rightGirl}
-								alt='right-girl'
-								className='right-girl'
-								width='175px'
-								height='700px'
-							/>
-							<img src='' alt='' className='left-girl' />
 						</div>
 					</div>
 				</div>

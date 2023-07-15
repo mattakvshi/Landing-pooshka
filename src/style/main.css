@@ -46,7 +46,9 @@ body {
 
 .title-2 em {
 	font-style: normal;
-	background: #fff0d9;
+	background: #ffc961;
+	border-radius: 24px;
+	padding: 0 10px;
 }
 
 .title-3 {
@@ -62,15 +64,15 @@ body {
 	/* перевели ссылку в формат в котором нормально сможем работать с размерами как с обычным блоком*/
 	display: inline-block;
 	/**/
-	height: 100px;
-	width: 300px;
-	padding: 25px 50px;
+	height: 80px;
+	width: 240px;
+	padding: 20px 40px;
 
-	border-radius: 150px;
+	border-radius: 50px;
 	background-color: #6640ff;
 	color: #ffffff;
 	letter-spacing: 0.15px;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 700;
 
 	/* плавность анимации при наведении*/
@@ -78,7 +80,7 @@ body {
 }
 
 .btn:hover {
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 .btn:active {
