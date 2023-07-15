@@ -4,7 +4,7 @@ import choiceIcon1 from './../../img/choice/choice-icon-1.png';
 import choiceIcon2 from './../../img/choice/choice-icon-2.png';
 import choiceIcon3 from './../../img/choice/choice-icon-3.png';
 
-import headerImg from './../../img/header-img4.png';
+import headerImg from './../../img/choice/choice-img.png';
 
 const Choice = () => {
 	return (
@@ -12,7 +12,7 @@ const Choice = () => {
 			<div className='container'>
 				<div className='section-choice__title'>
 					<h2 className='title-2'>
-						Почему <em>потребители</em> выбирают нас?
+						Почему <em>большинство</em> выбирают нас?
 					</h2>
 				</div>
 				<div className='choice-wrapper'>

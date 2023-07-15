@@ -1,6 +1,6 @@
 import './header.css';
 
-import logo from './../../img/logo_Pooshka_x-01-white.png';
+import logo from './../../img/headerNav/logo-Pooshka-white.png';
 
 const Header = () => {
 	return (
