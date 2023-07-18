@@ -1,0 +1,92 @@
+.preview {
+	width: 100%;
+
+	padding: 20px 0 40px 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	font-family: 'Poppins', sans-serif;
+}
+
+.preview-wrapper {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	row-gap: 80px;
+}
+
+.preview-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	column-gap: 10px;
+
+	padding: 20px 0;
+}
+
+.preview-column-up {
+	width: 600px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+
+	text-align: left;
+}
+
+.preview-column-down {
+	width: 600px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: right;
+
+	text-align: right;
+}
+
+.preview-column__text {
+	padding: 20px 15px;
+
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.preview-column-imgUp {
+	max-width: 600px;
+	max-height: 400px;
+
+	background-image: url('./../../img/preview/bolls-up.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.preview-column-imgDown {
+	max-width: 600px;
+	max-height: 400px;
+
+	background-image: url('./../../img/preview/bolls-down.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 1240px) {
+	.preview-column-imgDown {
+		order: 999;
+	}
+}

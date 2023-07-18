@@ -6,6 +6,8 @@ import Indicators from './components/indicators/Indicators';
 import Benefits from './components/benefits/Benefits';
 import Footer from './components/footer/Footer';
 import Transfer from './components/transfer/Transfer';
+import Preview from './components/preview/Preview';
+
 function App() {
 	return (
 		<div className='App'>
@@ -15,7 +17,7 @@ function App() {
 			{/* <!-----------------------------MAIN-----------------------------------------> */}
 			<Choice />
 			<Indicators />
-
+			<Preview />
 			<Benefits />
 			<Transfer />
 			{/* <!-----------------------------MAIN-----------------------------------------> */}
