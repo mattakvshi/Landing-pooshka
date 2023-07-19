@@ -77,3 +77,41 @@
 .header__text p + p {
 	margin-top: 0.5em;
 }
+
+@media (max-width: 640px) {
+	.header__title strong {
+		font-size: 60px;
+	}
+
+	.header__text {
+		font-size: 18px;
+	}
+
+	.header {
+		min-height: 600px;
+	}
+}
+
+@media (max-width: 530px) {
+	.header__title strong {
+		font-size: 50px;
+	}
+
+	.header__text {
+		font-size: 17px;
+	}
+
+	.header {
+		min-height: 500px;
+	}
+}
+
+@media (max-width: 430px) {
+	.header__title strong {
+		font-size: 40px;
+	}
+
+	.header__text {
+		font-size: 16px;
+	}
+}

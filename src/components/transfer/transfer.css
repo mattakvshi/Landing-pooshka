@@ -15,12 +15,16 @@
 }
 
 .transfer-bg-down-left {
+	max-width: 270px;
+	max-height: 230px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
 
 .transfer-bg-down-right {
+	max-width: 130px;
+	max-height: 350px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -29,12 +33,16 @@
 }
 
 .transfer-bg-up-right {
+	max-width: 270px;
+	max-height: 230px;
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
 .transfer-bg-up-left {
+	max-width: 130px;
+	max-height: 350px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -54,10 +62,16 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	padding: 20px 0;
+}
+
+.transfer-column__title {
+	text-align: center;
 }
 
 .transfer-column__text {
-	width: 530px;
+	max-width: 530px;
 
 	padding: 20px 15px;
 
@@ -97,4 +111,48 @@
 .alter-btn:active {
 	position: relative;
 	top: 2px;
+}
+
+@media (max-width: 1300px) {
+	.transfer-bg-down-left {
+		max-width: 200px;
+		max-height: 170px;
+	}
+
+	.transfer-bg-down-right {
+		max-width: 80px;
+		max-height: 215px;
+	}
+
+	.transfer-bg-up-right {
+		max-width: 200px;
+		max-height: 170px;
+	}
+
+	.transfer-bg-up-left {
+		max-width: 80px;
+		max-height: 215px;
+	}
+}
+
+@media (max-width: 1160px) {
+	.transfer {
+		height: 700px;
+	}
+}
+
+@media (max-width: 640px) {
+	.transfer {
+		height: 800px;
+	}
+
+	.transfer-column__text {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 530px) {
+	.transfer-column__text {
+		font-size: 17px;
+	}
 }

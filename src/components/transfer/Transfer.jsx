@@ -43,29 +43,21 @@ const Transfer = () => {
 				src={transferBgDownLeft}
 				alt='transferBgDownLeft'
 				className='transfer-bg-down-left'
-				width='270px'
-				height='230px'
 			/>
 			<img
 				src={transferBgDownRight}
 				alt='transferBgDownRight'
 				className='transfer-bg-down-right'
-				width='130px'
-				height='350px'
 			/>
 			<img
 				src={transferBgUpRight}
 				alt='transferBgUpRight'
 				className='transfer-bg-up-right'
-				width='270px'
-				height='230px'
 			/>
 			<img
 				src={transferBgUpLeft}
 				alt='transferBgUpLeft'
 				className='transfer-bg-up-left'
-				width='130'
-				height='350px'
 			/>
 		</section>
 	);

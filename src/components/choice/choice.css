@@ -71,8 +71,8 @@ em {
 	display: flex;
 	flex-direction: row;
 
-	width: 500px;
-	height: 150px;
+	max-width: 500px;
+	min-height: 150px;
 
 	padding: 20px 20px;
 
@@ -106,5 +106,11 @@ em {
 
 	.choice-wrapper {
 		justify-content: center;
+	}
+}
+
+@media (max-width: 430px) {
+	.benefit-text {
+		font-size: 16px;
 	}
 }

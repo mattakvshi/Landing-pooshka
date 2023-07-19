@@ -75,3 +75,23 @@
 	width: 100%;
 	background-color: #ffc961;
 }
+
+@media (max-width: 958px) {
+	.nav-row {
+		justify-content: unset;
+	}
+}
+
+@media (max-width: 640px) {
+	.container-nav {
+		max-width: 100%;
+	}
+
+	.nav-list {
+		font-size: 18px;
+	}
+
+	.nav-list {
+		column-gap: 20px;
+	}
+}
