@@ -1,5 +1,7 @@
 import './footer.css';
 
+import { NavLink } from 'react-router-dom';
+
 import footerLogo from './../../img/footer/logo-footer-white.png';
 
 import footerIconMail from './../../img/footer/mail-icon.svg';
@@ -9,16 +11,16 @@ import footerIconTelegram from './../../img/footer/telegram-icon.png';
 const Footer = () => {
 	return (
 		<footer className='footer'>
-			<div class='waves'>
-				<div class='wave' id='wave1'></div>
-				<div class='wave' id='wave2'></div>
-				<div class='wave' id='wave3'></div>
-				<div class='wave' id='wave4'></div>
+			<div className='waves'>
+				<div className='wave' id='wave1'></div>
+				<div className='wave' id='wave2'></div>
+				<div className='wave' id='wave3'></div>
+				<div className='wave' id='wave4'></div>
 			</div>
 			<div className='container-footer'>
 				<div className='footer-wrapper'>
 					<div className='footer-col'>
-						<a href='./index.html'>
+						<NavLink to='/'>
 							<img
 								className='logo-footer'
 								src={footerLogo}
@@ -26,7 +28,7 @@ const Footer = () => {
 								width='180px'
 								height='40px'
 							/>
-						</a>
+						</NavLink>
 
 						<div className='footer-icon-block'>
 							<img
@@ -55,18 +57,18 @@ const Footer = () => {
 					</div>
 					<div className='footer-col'>
 						<h3 className='title-3-footer'>Ссылки</h3>
-						<a href='#!' className='footer-link-text'>
+						<NavLink to='/' className='footer-link-text'>
 							Главная
-						</a>
-						<a href='#!' className='footer-link-text'>
+						</NavLink>
+						<NavLink to='/products' className='footer-link-text'>
 							Товары
-						</a>
-						<a href='#!' className='footer-link-text'>
+						</NavLink>
+						<NavLink to='/about' className='footer-link-text'>
 							О нас
-						</a>
-						<a href='#!' className='footer-link-text'>
+						</NavLink>
+						<NavLink to='/contacts' className='footer-link-text'>
 							Контакты
-						</a>
+						</NavLink>
 					</div>
 					<div className='footer-col'>
 						<h3 className='title-3-footer'>Соглашения</h3>

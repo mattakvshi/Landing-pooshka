@@ -1,16 +1,19 @@
 .footer {
-	position: relative;
-	width: 100%;
-	background: #5730f6;
-	min-height: 100px;
-	padding: 20px 50px;
-	margin-top: 200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 
+	width: 100%;
+	min-height: 100px;
+	padding: 20px 50px;
+	margin-top: 200px;
+
+	background: linear-gradient(180deg, #5730f6, rgba(0, 0, 0, 0.9) 99.9%);
+
 	color: #ffffff;
+
+	position: relative;
 }
 
 .container-footer {
@@ -75,6 +78,15 @@
 	column-gap: 20px;
 }
 
+.footer-link-text {
+	/* плавность анимации при наведении*/
+	transition: opacity 0.2s ease-in;
+}
+
+.footer-link-text:hover {
+	opacity: 0.8;
+}
+
 .footer-dev {
 	text-align: center;
 	padding: 60px 0 20px 0;
@@ -114,7 +126,7 @@
 	transition: opacity 0.2s ease-in;
 }
 .btn-small:hover {
-	opacity: 0.8;
+	opacity: 0.7;
 }
 
 .btn-small:active {

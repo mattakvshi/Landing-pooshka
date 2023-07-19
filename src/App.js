@@ -1,29 +1,29 @@
 import './style/main.css';
 
-import Header from './components/header/Header';
-import Choice from './components/choice/Choice';
-import Indicators from './components/indicators/Indicators';
-import Benefits from './components/benefits/Benefits';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Products from './pages/Products';
+import Contacts from './pages/Contacts';
 import Footer from './components/footer/Footer';
-import Transfer from './components/transfer/Transfer';
-import Preview from './components/preview/Preview';
 
 function App() {
 	return (
 		<div className='App'>
-			{/* <!----------------------------HEADER----------------------------------------> */}
-			<Header />
-			{/* <!----------------------------HEADER----------------------------------------> */}
-			{/* <!-----------------------------MAIN-----------------------------------------> */}
-			<Choice />
-			<Indicators />
-			<Preview />
-			<Benefits />
-			<Transfer />
-			{/* <!-----------------------------MAIN-----------------------------------------> */}
-			{/* <!----------------------------FOOTER----------------------------------------> */}
-			<Footer />
-			{/* <!----------------------------FOOTER----------------------------------------> */}
+			<Router>
+				{/* <!----------------------------PAGES----------------------------------------> */}
+				<Routes>
+					<Route path='/' element={<Home />} />
+					<Route path='/about' element={<About />} />
+					<Route path='/products' element={<Products />} />
+					<Route path='/contacts' element={<Contacts />} />
+				</Routes>
+				{/* <!----------------------------PAGES----------------------------------------> */}
+				{/* <!----------------------------FOOTER----------------------------------------> */}
+				<Footer />
+				{/* <!----------------------------FOOTER----------------------------------------> */}
+			</Router>
 		</div>
 	);
 }

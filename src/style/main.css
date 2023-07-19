@@ -3,16 +3,20 @@
 
 html,
 body {
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
 
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: -0.5px;
+}
 
-	/* Color mode */
-	background-color: #ffffff;
-	color: #000000;
+#root {
+	min-height: 100vh;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 /* General */
