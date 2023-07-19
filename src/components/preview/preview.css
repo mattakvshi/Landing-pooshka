@@ -27,7 +27,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 
 	column-gap: 10px;
 
@@ -87,9 +87,12 @@
 	background-position: center center;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1060px) {
 	.preview-column-imgDown {
 		order: 999;
+	}
+	.preview-row {
+		flex-wrap: wrap;
 	}
 }
 

@@ -69,7 +69,7 @@ body {
 	display: inline-block;
 	/**/
 	height: 80px;
-	width: 240px;
+	width: 230px;
 	padding: 20px 40px;
 
 	border-radius: 50px;
@@ -105,6 +105,16 @@ body {
 
 	.title-3 {
 		font-size: 22px;
+	}
+}
+
+@media (max-width: 530px) {
+	.btn {
+		height: 70px;
+		width: 190px;
+		padding: 15px 35px;
+
+		font-size: 26px;
 	}
 }
 
