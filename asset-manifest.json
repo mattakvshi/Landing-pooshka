@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Landing-pooshka/static/css/main.d1e2256b.css",
+    "main.css": "/Landing-pooshka/static/css/main.6dda9f63.css",
     "main.js": "/Landing-pooshka/static/js/main.cbe402cd.js",
     "static/media/choice-img.png": "/Landing-pooshka/static/media/choice-img.13f5aa1169f964e7fd07.png",
     "static/media/bolls-up-img.png": "/Landing-pooshka/static/media/bolls-up-img.f3e61fae1546798b13de.png",
@@ -14,11 +14,11 @@
     "static/media/mail-icon.svg": "/Landing-pooshka/static/media/mail-icon.a6037ee253a0572289571f3538183581.svg",
     "index.html": "/Landing-pooshka/index.html",
     "static/media/phone-icon.svg": "/Landing-pooshka/static/media/phone-icon.785fab88b316a20bec581b81353cfee4.svg",
-    "main.d1e2256b.css.map": "/Landing-pooshka/static/css/main.d1e2256b.css.map",
+    "main.6dda9f63.css.map": "/Landing-pooshka/static/css/main.6dda9f63.css.map",
     "main.cbe402cd.js.map": "/Landing-pooshka/static/js/main.cbe402cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1e2256b.css",
+    "static/css/main.6dda9f63.css",
     "static/js/main.cbe402cd.js"
   ]
 }
