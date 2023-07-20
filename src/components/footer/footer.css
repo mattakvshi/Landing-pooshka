@@ -33,7 +33,6 @@
   flex-wrap: nowrap;
   column-gap: 60px;
   justify-content: center;
-  align-items: center;
   font-size: 18px;
 }
 
@@ -209,5 +208,11 @@
   .footer-wrapper {
     flex-direction: column;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 530px) {
+  .container-footer {
+    width: 100%;
   }
 }
