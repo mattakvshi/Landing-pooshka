@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Landing-pooshka/static/css/main.84b81d42.css",
-    "main.js": "/Landing-pooshka/static/js/main.72041cc7.js",
-    "static/media/choice-img.png": "/Landing-pooshka/static/media/choice-img.13f5aa1169f964e7fd07.png",
-    "static/media/bolls-up-img.png": "/Landing-pooshka/static/media/bolls-up-img.f3e61fae1546798b13de.png",
-    "static/media/header-bg.jpeg": "/Landing-pooshka/static/media/header-bg.08abc81638f264777a77.jpeg",
-    "static/media/bolls-down-img.png": "/Landing-pooshka/static/media/bolls-down-img.dd515a835a5094ce45c7.png",
-    "static/media/logo-Pooshka-white.png": "/Landing-pooshka/static/media/logo-Pooshka-white.610fc75058a93dab14fb.png",
-    "static/media/logo-footer-white.png": "/Landing-pooshka/static/media/logo-footer-white.610fc75058a93dab14fb.png",
-    "static/media/bolls-down.png": "/Landing-pooshka/static/media/bolls-down.133aa9ff58503c4f08b5.png",
-    "static/media/bolls-up.png": "/Landing-pooshka/static/media/bolls-up.44c5570983ec418154a7.png",
-    "static/media/wave.png": "/Landing-pooshka/static/media/wave.2b2d96a2606bd30a0d28.png",
-    "static/media/mail-icon.svg": "/Landing-pooshka/static/media/mail-icon.a6037ee253a0572289571f3538183581.svg",
-    "index.html": "/Landing-pooshka/index.html",
-    "static/media/phone-icon.svg": "/Landing-pooshka/static/media/phone-icon.785fab88b316a20bec581b81353cfee4.svg",
-    "main.84b81d42.css.map": "/Landing-pooshka/static/css/main.84b81d42.css.map",
-    "main.72041cc7.js.map": "/Landing-pooshka/static/js/main.72041cc7.js.map"
+    "main.css": "/Landing-pooshka/home/static/css/main.9f19bed4.css",
+    "main.js": "/Landing-pooshka/home/static/js/main.2d6d9e76.js",
+    "static/media/choice-img.png": "/Landing-pooshka/home/static/media/choice-img.13f5aa1169f964e7fd07.png",
+    "static/media/bolls-up-img.png": "/Landing-pooshka/home/static/media/bolls-up-img.f3e61fae1546798b13de.png",
+    "static/media/header-bg.jpeg": "/Landing-pooshka/home/static/media/header-bg.08abc81638f264777a77.jpeg",
+    "static/media/bolls-down-img.png": "/Landing-pooshka/home/static/media/bolls-down-img.dd515a835a5094ce45c7.png",
+    "static/media/logo-Pooshka-white.png": "/Landing-pooshka/home/static/media/logo-Pooshka-white.610fc75058a93dab14fb.png",
+    "static/media/logo-footer-white.png": "/Landing-pooshka/home/static/media/logo-footer-white.610fc75058a93dab14fb.png",
+    "static/media/bolls-down.png": "/Landing-pooshka/home/static/media/bolls-down.133aa9ff58503c4f08b5.png",
+    "static/media/bolls-up.png": "/Landing-pooshka/home/static/media/bolls-up.44c5570983ec418154a7.png",
+    "static/media/wave.png": "/Landing-pooshka/home/static/media/wave.2b2d96a2606bd30a0d28.png",
+    "static/media/mail-icon.svg": "/Landing-pooshka/home/static/media/mail-icon.a6037ee253a0572289571f3538183581.svg",
+    "index.html": "/Landing-pooshka/home/index.html",
+    "static/media/phone-icon.svg": "/Landing-pooshka/home/static/media/phone-icon.785fab88b316a20bec581b81353cfee4.svg",
+    "main.9f19bed4.css.map": "/Landing-pooshka/home/static/css/main.9f19bed4.css.map",
+    "main.2d6d9e76.js.map": "/Landing-pooshka/home/static/js/main.2d6d9e76.js.map"
   },
   "entrypoints": [
-    "static/css/main.84b81d42.css",
-    "static/js/main.72041cc7.js"
+    "static/css/main.9f19bed4.css",
+    "static/js/main.2d6d9e76.js"
   ]
 }
