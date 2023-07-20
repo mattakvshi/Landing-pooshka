@@ -214,3 +214,9 @@
 		flex-wrap: wrap;
 	}
 }
+
+@media (max-width: 530px) {
+	.container-footer {
+		width: 100%;
+	}
+}

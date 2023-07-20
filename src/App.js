@@ -14,10 +14,10 @@ function App() {
 			<Router>
 				{/* <!----------------------------PAGES----------------------------------------> */}
 				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/about' element={<About />} />
-					<Route path='/products' element={<Products />} />
-					<Route path='/contacts' element={<Contacts />} />
+					<Route path='/Landing-pooshka/' element={<Home />} />
+					<Route path='/Landing-pooshka/about' element={<About />} />
+					<Route path='/Landing-pooshka/products' element={<Products />} />
+					<Route path='/Landing-pooshka/contacts' element={<Contacts />} />
 				</Routes>
 				{/* <!----------------------------PAGES----------------------------------------> */}
 				{/* <!----------------------------FOOTER----------------------------------------> */}

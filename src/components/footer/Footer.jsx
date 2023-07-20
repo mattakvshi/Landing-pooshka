@@ -20,7 +20,7 @@ const Footer = () => {
 			<div className='container-footer'>
 				<div className='footer-wrapper'>
 					<div className='footer-col'>
-						<NavLink to='/'>
+						<NavLink to='/Landing-pooshka/'>
 							<img
 								className='logo-footer'
 								src={footerLogo}
