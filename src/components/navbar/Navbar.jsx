@@ -13,7 +13,7 @@ const Navbar = () => {
   var navClass;
 
   const activeURL = window.location.pathname;
-  if (activeURL === "/Landing-pooshka/") {
+  if (activeURL === "/") {
     navClass = normalNav;
   } else {
     navClass = otherNan;
@@ -23,13 +23,13 @@ const Navbar = () => {
     <nav className={navClass}>
       <div className="container-nav">
         <div className="nav-row">
-          <NavLink to="/Landing-pooshka/" className="logo">
+          <NavLink to="/" className="logo">
             <img src={logo} alt="logo" width="250px" height="60px" />
           </NavLink>
           <ul className="nav-list">
             <li className="nav-list__item">
               <NavLink
-                to="/Landing-pooshka/"
+                to="/"
                 className={({ isActive }) => {
                   return isActive ? activeLink : normalLik;
                 }}
@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
             <li className="nav-list__item">
               <NavLink
-                to="/Landing-pooshka/products"
+                to="/products"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLik
                 }
@@ -49,7 +49,7 @@ const Navbar = () => {
             </li>
             <li className="nav-list__item">
               <NavLink
-                to="/Landing-pooshka/about"
+                to="/about"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLik
                 }
@@ -59,7 +59,7 @@ const Navbar = () => {
             </li>
             <li className="nav-list__item">
               <NavLink
-                to="/Landing-pooshka/contacts"
+                to="/contacts"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLik
                 }
