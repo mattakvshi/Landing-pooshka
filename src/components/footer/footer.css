@@ -33,6 +33,7 @@
   flex-wrap: nowrap;
   column-gap: 60px;
   justify-content: center;
+  align-items: center;
   font-size: 18px;
 }
 
