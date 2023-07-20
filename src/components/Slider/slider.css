@@ -1,0 +1,26 @@
+.slider-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.slider {
+  display: flex;
+  flex: row;
+  width: 90vw;
+  gap: 15px;
+}
+.slide {
+  flex-grow: 1;
+  flex: 1;
+  height: 400px;
+}
+.slide.active {
+  flex-grow: 3;
+}
+.slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
