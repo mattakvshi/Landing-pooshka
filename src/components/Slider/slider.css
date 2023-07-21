@@ -1,26 +1,36 @@
+.slider-wrapper {
+	display: flex;
+	flex-direction: row;
+	column-gap: 40px;
+}
 .slider-actions {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 30px;
 }
 
 .slider {
-  display: flex;
-  flex: row;
-  width: 90vw;
-  gap: 15px;
+	display: flex;
+	flex: row;
+	width: 90vw;
+	gap: 15px;
 }
 .slide {
-  flex-grow: 1;
-  flex: 1;
-  height: 400px;
+	flex-grow: 1;
+	flex: 1;
+	height: 400px;
+	opacity: 0.7;
+
+	transition: all 0.5s ease-in-out;
 }
 .slide.active {
-  flex-grow: 3;
+	flex-grow: 3;
+	opacity: unset;
 }
 .slide img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
 }

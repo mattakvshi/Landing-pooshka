@@ -6,7 +6,7 @@ import productImg1 from './../img/new-products/product-combez.png';
 import productImg2 from './../img/new-products/product-leggenci.png';
 import productImg3 from './../img/new-products/product-yubka.png';
 
-import wbLogoBig from './../img/wb-section/wb-logo-bg.png';
+import WbSection from '../components/wb-section/WbSection';
 
 const Products = () => {
 	return (
@@ -14,26 +14,7 @@ const Products = () => {
 			<Navbar />
 			<section className='products-section'>
 				<div className='container'>
-					<div className='wb-section'>
-						<div className='wb-section__column'>
-							<div className='wb-section__title'>
-								Переходи на страницу магазина
-							</div>
-							<div className='wb-section__text'>
-								<p>и покупай прямо сейчас по лучшей цене!</p>
-							</div>
-						</div>
-						<div className='wb-section__column'>
-							<a href='#!' className='btn-wb'>
-								Перейти
-							</a>
-						</div>
-						<div className='wb-section__column'>
-							<a href='#!'>
-								<img src={wbLogoBig} alt='wbLogoBig' className='wb-logo-img' />
-							</a>
-						</div>
-					</div>
+					<WbSection />
 					<h2 className='title-1'>
 						Ассортимент продукции <em>нашего</em> бренда:
 					</h2>

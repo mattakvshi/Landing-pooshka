@@ -27,7 +27,12 @@ const Header = () => {
 									и качественную одежду по очень приятным ценам. <br />
 								</p>
 							</div>
-							<a href='#!' className='btn'>
+							<a
+								href='https://www.wildberries.ru/seller/1202796#c148101751'
+								target='_blank'
+								rel='noreferrer'
+								className='btn'
+							>
 								Заказать!
 							</a>
 						</div>
