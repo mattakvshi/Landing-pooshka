@@ -13,7 +13,7 @@ const Navbar = () => {
   var navClass;
 
   const activeURL = window.location.pathname;
-  if (activeURL === "/Landing-pooshka/") {
+  if (activeURL === "/Landing-pooshka/" || activeURL === "/Landing-pooshka") {
     navClass = normalNav;
   } else {
     navClass = otherNan;
