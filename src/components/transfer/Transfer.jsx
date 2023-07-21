@@ -25,7 +25,12 @@ const Transfer = () => {
 							</p>
 						</div>
 						<div className='alter-btn'>
-							<a href='#!' className='alter-btn__btn'>
+							<a
+								href='https://www.wildberries.ru/seller/1202796#c148101751'
+								target='_blank'
+								rel='noreferrer'
+								className='alter-btn__btn'
+							>
 								Мы на Wildberries!
 							</a>
 							<img
