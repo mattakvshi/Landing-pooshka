@@ -2,12 +2,12 @@ import Navbar from './../components/navbar/Navbar';
 import WbSection from '../components/wb-section/WbSection';
 
 import Slider from './../components/Slider/Slider';
-import slider1 from './../img/about-gallery/1.jpg';
-import slider2 from './../img/about-gallery/2.jpg';
-import slider3 from './../img/about-gallery/3.jpg';
-import slider4 from './../img/about-gallery/4.jpg';
-import slider5 from './../img/about-gallery/5.jpg';
-import slider6 from './../img/about-gallery/9.jpg';
+import slider1 from './../img/about-gallery/gallery1.jpg';
+import slider2 from './../img/about-gallery/gallery2.jpg';
+import slider3 from './../img/about-gallery/gallery3.jpg';
+import slider4 from './../img/about-gallery/gallery4.jpg';
+import slider5 from './../img/about-gallery/gallery5.jpg';
+import slider6 from './../img/about-gallery/gallery6.jpg';
 
 const About = () => {
 	return (

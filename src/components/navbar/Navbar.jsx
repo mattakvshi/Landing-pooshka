@@ -1,6 +1,7 @@
 import './navbar.css';
 
-import logo from './../../img/headerNav/logo-Pooshka-white.png';
+import logoWhite from './../../img/headerNav/logo-Pooshka-white.png';
+import logoBlack from './../../img/headerNav/logo_Pooshka_x-01.png';
 
 import { NavLink } from 'react-router-dom';
 
@@ -12,11 +13,15 @@ const Navbar = () => {
 	const otherNan = 'other-nav';
 	var navClass;
 
+	var navLogo;
+
 	const activeURL = window.location.pathname;
 	if (activeURL === '/Landing-pooshka/' || activeURL === '/Landing-pooshka') {
 		navClass = normalNav;
+		navLogo = logoWhite;
 	} else {
 		navClass = otherNan;
+		navLogo = logoBlack;
 	}
 
 	return (
@@ -24,7 +29,7 @@ const Navbar = () => {
 			<div className='container-nav'>
 				<div className='nav-row'>
 					<NavLink to='/Landing-pooshka/' className='logo'>
-						<img src={logo} alt='logo' width='250px' height='60px' />
+						<img src={navLogo} alt='logo' width='250px' height='60px' />
 					</NavLink>
 					<ul className='nav-list'>
 						<li className='nav-list__item'>
