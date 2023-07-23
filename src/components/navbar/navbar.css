@@ -59,8 +59,7 @@
 }
 
 .nav-list__link {
-	color: var(--heder-text);
-
+	color: var(--nav-text);
 	/* плавность анимации при наведении*/
 	transition: opacity 0.2s ease-in;
 }
