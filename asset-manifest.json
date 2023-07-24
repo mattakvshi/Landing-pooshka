@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Landing-pooshka/static/css/main.39b814b9.css",
-    "main.js": "/Landing-pooshka/static/js/main.12b2a352.js",
+    "main.css": "/Landing-pooshka/static/css/main.4be3e80b.css",
+    "main.js": "/Landing-pooshka/static/js/main.0777ade8.js",
+    "static/media/product-T-shorts.png": "/Landing-pooshka/static/media/product-T-shorts.2f628776f06a9dbbb453.png",
     "static/media/choice-img.png": "/Landing-pooshka/static/media/choice-img.13f5aa1169f964e7fd07.png",
     "static/media/product-combez.png": "/Landing-pooshka/static/media/product-combez.3f6b2a790b1b66bffb94.png",
     "static/media/product-yubka.png": "/Landing-pooshka/static/media/product-yubka.7255a1e0968e9e55b1db.png",
     "static/media/product-leggenci.png": "/Landing-pooshka/static/media/product-leggenci.313e1e17e4ef8233a589.png",
     "static/media/bolls-up-img.png": "/Landing-pooshka/static/media/bolls-up-img.1635db7b9a83c8a610ff.png",
     "static/media/header-bg.jpeg": "/Landing-pooshka/static/media/header-bg.08abc81638f264777a77.jpeg",
-    "static/media/bolls-down-img.png": "/Landing-pooshka/static/media/bolls-down-img.dd515a835a5094ce45c7.png",
+    "static/media/bolls-down-img.png": "/Landing-pooshka/static/media/bolls-down-img.8765be6bf4463b642b1e.png",
+    "static/media/gallery1.jpg": "/Landing-pooshka/static/media/gallery1.eadcad7b9307716e23e3.jpg",
     "static/media/logo-Pooshka-white.png": "/Landing-pooshka/static/media/logo-Pooshka-white.610fc75058a93dab14fb.png",
     "static/media/logo-footer-white.png": "/Landing-pooshka/static/media/logo-footer-white.610fc75058a93dab14fb.png",
-    "static/media/4.jpg": "/Landing-pooshka/static/media/4.e9b6e8a5873a1610a4e5.jpg",
-    "static/media/3.jpg": "/Landing-pooshka/static/media/3.8d97e0592ac966387f24.jpg",
-    "static/media/1.jpg": "/Landing-pooshka/static/media/1.d9cfcae7b81d8770245e.jpg",
-    "static/media/2.jpg": "/Landing-pooshka/static/media/2.8cf8194d92b726afbbff.jpg",
+    "static/media/logo_Pooshka_x-01.png": "/Landing-pooshka/static/media/logo_Pooshka_x-01.4926ca13017315f3f57f.png",
+    "static/media/gallery2.jpg": "/Landing-pooshka/static/media/gallery2.4fe5fe1b4b9b8d389ae4.jpg",
+    "static/media/gallery5.jpg": "/Landing-pooshka/static/media/gallery5.1cb7fea7b5ab60b61cf9.jpg",
+    "static/media/gallery3.jpg": "/Landing-pooshka/static/media/gallery3.6fffb89a78266f3ffc33.jpg",
+    "static/media/gallery6.jpg": "/Landing-pooshka/static/media/gallery6.09f73ea2352d409bfea3.jpg",
+    "static/media/gallery4.jpg": "/Landing-pooshka/static/media/gallery4.3bddacc409f4fa28ba6a.jpg",
     "static/media/wb-logo-bg.png": "/Landing-pooshka/static/media/wb-logo-bg.517977984667dd8bb02c.png",
-    "static/media/5.jpg": "/Landing-pooshka/static/media/5.81b6d748db902d79c054.jpg",
-    "static/media/9.jpg": "/Landing-pooshka/static/media/9.56585682eb54b96bd618.jpg",
     "static/media/bolls-down.png": "/Landing-pooshka/static/media/bolls-down.133aa9ff58503c4f08b5.png",
     "static/media/bolls-up.png": "/Landing-pooshka/static/media/bolls-up.44c5570983ec418154a7.png",
     "static/media/wave.png": "/Landing-pooshka/static/media/wave.2b2d96a2606bd30a0d28.png",
@@ -28,11 +30,11 @@
     "static/media/mail-icon.svg": "/Landing-pooshka/static/media/mail-icon.a6037ee253a0572289571f3538183581.svg",
     "index.html": "/Landing-pooshka/index.html",
     "static/media/phone-icon.svg": "/Landing-pooshka/static/media/phone-icon.785fab88b316a20bec581b81353cfee4.svg",
-    "main.39b814b9.css.map": "/Landing-pooshka/static/css/main.39b814b9.css.map",
-    "main.12b2a352.js.map": "/Landing-pooshka/static/js/main.12b2a352.js.map"
+    "main.4be3e80b.css.map": "/Landing-pooshka/static/css/main.4be3e80b.css.map",
+    "main.0777ade8.js.map": "/Landing-pooshka/static/js/main.0777ade8.js.map"
   },
   "entrypoints": [
-    "static/css/main.39b814b9.css",
-    "static/js/main.12b2a352.js"
+    "static/css/main.4be3e80b.css",
+    "static/js/main.0777ade8.js"
   ]
 }
