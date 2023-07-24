@@ -7,11 +7,24 @@
 }
 
 .other-nav {
-	color: #ffffff;
+	color: #000000;
 	letter-spacing: normal;
 	padding: 20px 0;
 
-	background: radial-gradient(at 100% 100%, #363636, #666363);
+	position: relative;
+}
+
+.other-nav::before {
+	content: '';
+
+	position: absolute;
+	left: 10%;
+	top: 100%;
+
+	display: block;
+	height: 2px;
+	width: 80%;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .container-nav {
@@ -46,8 +59,7 @@
 }
 
 .nav-list__link {
-	color: var(--heder-text);
-
+	color: var(--nav-text);
 	/* плавность анимации при наведении*/
 	transition: opacity 0.2s ease-in;
 }
