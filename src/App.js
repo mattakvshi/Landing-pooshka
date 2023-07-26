@@ -2,6 +2,8 @@ import './style/main.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import ScrollToTop from './utils/ScrollToTop';
+
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -12,6 +14,7 @@ function App() {
 	return (
 		<div className='App'>
 			<Router>
+				<ScrollToTop />
 				{/* <!----------------------------PAGES----------------------------------------> */}
 				<Routes>
 					<Route path='/Landing-pooshka/' element={<Home />} />

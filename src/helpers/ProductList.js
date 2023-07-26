@@ -11,6 +11,7 @@ import productImg10 from './../img/new-products/product-polupal.png';
 
 const products = [
 	{
+		id: '1',
 		link: './product-page1',
 		title: 'Футболки с кастомным принтом',
 		img: productImg1,
@@ -21,6 +22,7 @@ const products = [
 		reviews: '5',
 	},
 	{
+		id: '2',
 		link: './product-page2',
 		title: 'Комбинезон спортивный',
 		img: productImg2,
@@ -31,6 +33,7 @@ const products = [
 		reviews: '4.5',
 	},
 	{
+		id: '3',
 		link: './product-page3',
 		title: 'Леггинсы спортивные',
 		img: productImg3,
@@ -41,6 +44,7 @@ const products = [
 		reviews: '4.8',
 	},
 	{
+		id: '4',
 		link: './product-page4',
 		title: 'Шифоновая юбка',
 		img: productImg4,
@@ -51,6 +55,7 @@ const products = [
 		reviews: '4.6',
 	},
 	{
+		id: '5',
 		link: './product-page4',
 		title: 'Шорты спортивные',
 		img: productImg5,
@@ -61,6 +66,7 @@ const products = [
 		reviews: '5',
 	},
 	{
+		id: '6',
 		link: './product-page4',
 		title: 'Топ гимнастический',
 		img: productImg6,
@@ -71,6 +77,7 @@ const products = [
 		reviews: '4.6',
 	},
 	{
+		id: '7',
 		link: './product-page4',
 		title: 'Купальник гимнастический',
 		img: productImg7,
@@ -81,6 +88,7 @@ const products = [
 		reviews: '5',
 	},
 	{
+		id: '8',
 		link: './product-page4',
 		title: 'Велосипедки',
 		img: productImg8,
@@ -91,6 +99,7 @@ const products = [
 		reviews: '5',
 	},
 	{
+		id: '9',
 		link: './product-page4',
 		title: 'Трусы для гимнастики',
 		img: productImg9,
@@ -101,6 +110,7 @@ const products = [
 		reviews: '5',
 	},
 	{
+		id: '10',
 		link: './product-page4',
 		title: 'Полупальцы',
 		img: productImg10,
