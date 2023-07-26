@@ -7,6 +7,7 @@ import ScrollToTop from './utils/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
+import Product from './pages/Product';
 import Contacts from './pages/Contacts';
 import Footer from './components/footer/Footer';
 
@@ -20,6 +21,7 @@ function App() {
 					<Route path='/Landing-pooshka/' element={<Home />} />
 					<Route path='/Landing-pooshka/about' element={<About />} />
 					<Route path='/Landing-pooshka/products' element={<Products />} />
+					<Route path='/Landing-pooshka/product' element={<Product />} />
 					<Route path='/Landing-pooshka/contacts' element={<Contacts />} />
 				</Routes>
 				{/* <!----------------------------PAGES----------------------------------------> */}
