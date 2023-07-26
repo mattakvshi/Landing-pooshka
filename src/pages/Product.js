@@ -46,7 +46,7 @@ const Product = () => {
 										<div className='product-specifications__text'>
 											<ul className='product-specifications__list'>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>
 															Страна производитель
 														</span>
@@ -54,49 +54,49 @@ const Product = () => {
 													<span className='item__cor'>{product.country}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Размер/рост</span>
 													</div>
 													<span className='item__cor'>{product.size}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Ширина упаковки</span>
 													</div>
 													<span className='item__cor'>{product.width}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Длинна упаковки</span>
 													</div>
 													<span className='item__cor'>{product.length}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Высота упаковки</span>
 													</div>
 													<span className='item__cor'>{product.height}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Материал</span>
 													</div>
 													<span className='item__cor'>{product.material}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Пол</span>
 													</div>
 													<span className='item__cor'>{product.gender}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Цвет</span>
 													</div>
 													<span className='item__cor'>{product.color}</span>
 												</li>
 												<li className='product-specifications__item'>
-													<div className='left'>
+													<div className='left-desc'>
 														<span className='item__label'>Рисунок</span>
 													</div>
 													<span className='item__cor'>{product.drawing}</span>
