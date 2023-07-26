@@ -193,7 +193,7 @@ body {
 	left: 100%;
 	right: -9999px;
 	bottom: 0;
-	border-bottom: 1px dotted #888;
+	border-bottom: 1.5px dashed #888;
 }
 
 .left {

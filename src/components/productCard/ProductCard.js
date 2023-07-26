@@ -1,16 +1,18 @@
 import './product-card.css';
 
+import { NavLink } from 'react-router-dom';
+
 const ProductCard = ({
-	link,
 	title,
 	img,
 	description,
 	specifications,
 	reviews,
+	id,
 }) => {
 	return (
 		<li className='product'>
-			<a href={link}>
+			<NavLink to={`/Landing-pooshka/product/${id}`}>
 				<img src={img} alt={title} className='product__img' />
 				<div className='product__description'>
 					<h3 className='product__title'>{title}</h3>
@@ -22,7 +24,7 @@ const ProductCard = ({
 						</p>
 					</div>
 				</div>
-			</a>
+			</NavLink>
 		</li>
 	);
 };

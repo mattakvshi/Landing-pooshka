@@ -21,7 +21,7 @@ function App() {
 					<Route path='/Landing-pooshka/' element={<Home />} />
 					<Route path='/Landing-pooshka/about' element={<About />} />
 					<Route path='/Landing-pooshka/products' element={<Products />} />
-					<Route path='/Landing-pooshka/product' element={<Product />} />
+					<Route path='/Landing-pooshka/product/:id' element={<Product />} />
 					<Route path='/Landing-pooshka/contacts' element={<Contacts />} />
 				</Routes>
 				{/* <!----------------------------PAGES----------------------------------------> */}

@@ -27,6 +27,7 @@ const Products = () => {
 									description={product.description}
 									specifications={product.specifications}
 									reviews={product.reviews}
+									id={product.id}
 								/>
 							);
 						})}
