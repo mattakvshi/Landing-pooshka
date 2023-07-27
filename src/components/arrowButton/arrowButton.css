@@ -1,36 +1,36 @@
 .arrow-button {
-	min-width: 100px;
-	min-height: 100px;
-	cursor: pointer;
+  min-width: 100px;
+  min-height: 100px;
+  cursor: pointer;
 }
 .arrow-button.right,
 .arrow-button.right.disable {
-	min-width: 100px;
-	min-height: 100px;
-	cursor: pointer;
-	background: url('./../../img/about_slider/arrow-right-grey.svg') center / 100%
-		100% no-repeat;
+  min-width: 50px;
+  min-height: 50px;
+  cursor: pointer;
+  background: url("./../../img/about_slider/arrow-right-grey.svg") center / 100%
+    100% no-repeat;
 }
 .arrow-button.left,
 .arrow-button.left.disable {
-	min-width: 100px;
-	min-height: 100px;
-	background: url('./../../img/about_slider/arrow-left-grey.svg') center / 100%
-		100% no-repeat;
-	cursor: pointer;
+  min-width: 50px;
+  min-height: 50px;
+  background: url("./../../img/about_slider/arrow-left-grey.svg") center / 100%
+    100% no-repeat;
+  cursor: pointer;
 }
 
 .arrow-button.left:hover {
-	background: url('./../../img/about_slider/arrow-left.svg') center / 100% 100%
-		no-repeat;
+  background: url("./../../img/about_slider/arrow-left.svg") center / 100% 100%
+    no-repeat;
 }
 .arrow-button.right:hover {
-	background: url('./../../img/about_slider/arrow-right.svg') center / 100% 100%
-		no-repeat;
+  background: url("./../../img/about_slider/arrow-right.svg") center / 100% 100%
+    no-repeat;
 }
 .arrow-button.left.disable {
-	pointer-events: none;
+  pointer-events: none;
 }
 .arrow-button.right.disable {
-	pointer-events: none;
+  pointer-events: none;
 }
