@@ -117,7 +117,14 @@ const Footer = () => {
 					</div>
 				</div>
 				<div className='footer-dev'>
-					<p>Created in 2023 by mattakushi & lumate </p>
+					<a
+						href='https://github.com/mattakvshi/Landing-pooshka'
+						target='_blank'
+						rel='noreferrer'
+						className='footer-link-text'
+					>
+						Created in 2023 by mattakushi & lumate
+					</a>
 				</div>
 			</div>
 		</footer>

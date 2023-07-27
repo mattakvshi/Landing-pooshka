@@ -1,0 +1,22 @@
+.comeback-button-section {
+	padding: 40px 0 0;
+}
+
+.comeback-button-wrapper {
+	display: flex;
+	justify-content: right;
+}
+
+.comeback-button {
+	display: flex;
+	flex-direction: row;
+	column-gap: 3px;
+
+	font-size: 22px;
+
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.comeback-button:hover {
+	opacity: 0.8;
+}

@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { products } from '../helpers/ProductList';
 
 import Navbar from '../components/navbar/Navbar';
+import ComebackButton from '../components/comebackButton/ComebackButton';
 
 // function giveProduct(idToSearch) {
 // 	return products.filter(item => {
@@ -23,6 +24,7 @@ const Product = () => {
 	return (
 		<>
 			<Navbar />
+			<ComebackButton />
 			<section className='product-section'>
 				<div className='container'>
 					<div className='product-wrapper'>

@@ -275,6 +275,34 @@ body {
 	opacity: 0.8;
 }
 
+/* Product T-short page */
+
+.product-tsh-section {
+	padding: 20px 0;
+}
+
+.tsh-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+	row-gap: 40px;
+
+	width: 100%;
+
+	padding: 0 5px;
+}
+
+.tsh-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	column-gap: 90px;
+	row-gap: 70px;
+}
+
 /* about */
 
 .section-about-info {
