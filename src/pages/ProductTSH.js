@@ -25,31 +25,6 @@ const ProductTSH = () => {
 									/>
 								);
 							})}
-
-							{/* <li className='tsh-item'>
-								<a
-									href='https://www.wildberries.ru/catalog/154083166/detail.aspx'
-									target='_blank'
-									rel='noreferrer'
-								>
-									<img src={tshImg1} alt='tshImg1' className='tsh-img' />
-								</a>
-							</li>
-							<li className='tsh-item'>
-								<img src={tshImg2} alt='tshImg2' className='tsh-img' />
-							</li>
-							<li className='tsh-item'>
-								<img src={tshImg3} alt='tshImg3' className='tsh-img' />
-							</li>
-							<li className='tsh-item'>
-								<img src={tshImg1} alt='tshImg1' className='tsh-img' />
-							</li>
-							<li className='tsh-item'>
-								<img src={tshImg2} alt='tshImg2' className='tsh-img' />
-							</li>
-							<li className='tsh-item'>
-								<img src={tshImg3} alt='tshImg3' className='tsh-img' />
-							</li> */}
 						</ul>
 					</div>
 				</div>
