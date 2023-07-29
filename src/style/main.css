@@ -303,6 +303,23 @@ body {
 	row-gap: 70px;
 }
 
+.desc-wrapper {
+	display: flex;
+	flex-direction: row;
+	column-gap: 10px;
+
+	margin-top: 50px;
+	padding: 40px 15px;
+}
+
+.desc-wrapper__column {
+	width: 500px;
+}
+
+.desc-wrapper__column-2 {
+	width: 700px;
+}
+
 /* about */
 
 .section-about-info {

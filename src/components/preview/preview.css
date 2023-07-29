@@ -30,6 +30,7 @@
 	flex-wrap: nowrap;
 
 	column-gap: 10px;
+	row-gap: 30px;
 
 	padding: 20px 0;
 }
@@ -88,8 +89,8 @@
 }
 
 @media (max-width: 1060px) {
-	.preview-column-imgDown {
-		order: 999;
+	.preview-column-imgUp {
+		order: -1;
 	}
 	.preview-row {
 		flex-wrap: wrap;
