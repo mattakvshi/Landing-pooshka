@@ -101,6 +101,22 @@
 	max-height: 86px;
 }
 
+@media (max-width: 960px) {
+	.wb-section__title {
+		font-size: 22px;
+	}
+
+	.wb-section__text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 700px) {
+	.wb-section__title {
+		font-size: 20px;
+	}
+}
+
 @media (max-width: 640px) {
 	.wb-logo-img {
 		display: none;

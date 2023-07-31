@@ -20,3 +20,19 @@
 .comeback-button:hover {
 	opacity: 0.8;
 }
+
+@media (max-width: 640px) {
+	.comeback-button-section {
+		padding: 20px 0 0;
+	}
+
+	.comeback-button {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 530px) {
+	.comeback-button-section {
+		padding: 10px 0 0;
+	}
+}
