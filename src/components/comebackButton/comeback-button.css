@@ -1,0 +1,38 @@
+.comeback-button-section {
+	padding: 40px 0 0;
+}
+
+.comeback-button-wrapper {
+	display: flex;
+	justify-content: right;
+}
+
+.comeback-button {
+	display: flex;
+	flex-direction: row;
+	column-gap: 3px;
+
+	font-size: 22px;
+
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.comeback-button:hover {
+	opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+	.comeback-button-section {
+		padding: 20px 0 0;
+	}
+
+	.comeback-button {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 530px) {
+	.comeback-button-section {
+		padding: 10px 0 0;
+	}
+}

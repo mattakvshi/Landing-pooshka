@@ -3,6 +3,7 @@
 	flex-direction: row;
 	column-gap: 40px;
 }
+
 .slider-actions {
 	display: flex;
 	flex-direction: row;
@@ -16,6 +17,7 @@
 	width: 90vw;
 	gap: 15px;
 }
+
 .slide {
 	flex-grow: 1;
 	flex: 1;
@@ -24,13 +26,32 @@
 
 	transition: all 0.5s ease-in-out;
 }
+
 .slide.active {
 	flex-grow: 3;
 	opacity: unset;
 }
+
 .slide img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+	.slide {
+		display: none;
+	}
+
+	.slider-actions {
+		justify-content: center;
+		align-items: center;
+	}
+
+	.slide.active {
+		height: 100%;
+		width: 40%;
+		display: flex;
+	}
 }

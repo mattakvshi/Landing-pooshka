@@ -13,6 +13,7 @@
 	max-height: 110px;
 
 	padding: 12px 30px;
+	margin: 20px 0 80px;
 
 	background: radial-gradient(at 100% 100%, #6b5ef7, #ed1a8c);
 
@@ -22,7 +23,7 @@
 		rgba(102, 64, 255, 0.2) 15px 15px, rgba(102, 64, 255, 0.1) 20px 20px,
 		rgba(102, 64, 255, 0.05) 25px 25px;
 
-	margin: 20px 0 80px;
+	opacity: 0.95;
 }
 
 .wb-section__title {
@@ -98,4 +99,39 @@
 .wb-logo-img {
 	max-width: 300px;
 	max-height: 86px;
+}
+
+@media (max-width: 960px) {
+	.wb-section__title {
+		font-size: 22px;
+	}
+
+	.wb-section__text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 700px) {
+	.wb-section__title {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 640px) {
+	.wb-logo-img {
+		display: none;
+	}
+
+	.wb-section {
+		width: 95%;
+
+		flex-wrap: wrap;
+
+		row-gap: 20px;
+		column-gap: 20px;
+
+		max-height: 300px;
+
+		margin: 0 0 50px;
+	}
 }

@@ -20,50 +20,50 @@ const Footer = () => {
       <div className="container-footer">
         <div className="footer-wrapper">
           <div className="footer-col">
-            <NavLink to="/Landing-pooshka/">
-              <img
-                className="logo-footer"
-                src={footerLogo}
-                alt="footer-logo"
-                width="180px"
-                height="40px"
-              />
-            </NavLink>
-            <a href="mailto:alex12332@list.ru" className="footer-link-text">
-              <div className="footer-icon-block">
+            <div className="footer-col__first">
+              <NavLink to="/Landing-pooshka/">
                 <img
-                  className="footer-mail-icon"
-                  alt="footer-mail-icon"
-                  src={footerIconMail}
+                  className="logo-footer"
+                  src={footerLogo}
+                  alt="footer-logo"
                 />
-                <p>alex12332@list.ru</p>
-              </div>
-            </a>
-            <a href="tel:+79181309620" className="footer-link-text">
-              <div className="footer-icon-block">
-                <img
-                  className="footer-phone-icon"
-                  alt="footer-phone-icon"
-                  src={footerIconPhone}
-                />
-                <p>+7 (918) 130-96-20</p>
-              </div>
-            </a>
-            <a
-              href="https://t.me/pooshka_tshirt"
-              target="_blank"
-              rel="noreferrer"
-              className="footer-link-text"
-            >
-              <div className="footer-icon-block">
-                <img
-                  className="footer-telegram-icon"
-                  alt="footer-telegram-icon"
-                  src={footerIconTelegram}
-                />
-                <p>Наш телеграм</p>
-              </div>
-            </a>
+              </NavLink>
+              <a href="mailto:alex12332@list.ru" className="footer-link-text">
+                <div className="footer-icon-block">
+                  <img
+                    className="footer-mail-icon"
+                    alt="footer-mail-icon"
+                    src={footerIconMail}
+                  />
+                  <p>alex12332@list.ru</p>
+                </div>
+              </a>
+              <a href="tel:+79181309620" className="footer-link-text">
+                <div className="footer-icon-block">
+                  <img
+                    className="footer-phone-icon"
+                    alt="footer-phone-icon"
+                    src={footerIconPhone}
+                  />
+                  <p>+7 (918) 130-96-20</p>
+                </div>
+              </a>
+              <a
+                href="https://t.me/pooshka_tshirt"
+                target="_blank"
+                rel="noreferrer"
+                className="footer-link-text"
+              >
+                <div className="footer-icon-block">
+                  <img
+                    className="footer-telegram-icon"
+                    alt="footer-telegram-icon"
+                    src={footerIconTelegram}
+                  />
+                  <p>Наш телеграм</p>
+                </div>
+              </a>
+            </div>
           </div>
           <div className="footer-col">
             <h3 className="title-3-footer">Ссылки</h3>
@@ -117,7 +117,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-dev">
-          <p>Created in 2023 by mattakushi & lumate </p>
+          <a
+            href="https://github.com/mattakvshi/Landing-pooshka"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link-text"
+          >
+            Created in 2023 by mattakushi & lumate
+          </a>
         </div>
       </div>
     </footer>

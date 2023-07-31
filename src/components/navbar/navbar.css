@@ -103,4 +103,19 @@
 	.nav-list {
 		column-gap: 20px;
 	}
+
+	.other-nav::before {
+		left: 0;
+		width: 100%;
+	}
+}
+
+@media (max-width: 370px) {
+	.nav-list {
+		column-gap: 15px;
+	}
+
+	.nav-list {
+		font-size: 17px;
+	}
 }

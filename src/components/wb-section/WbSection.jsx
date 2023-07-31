@@ -1,8 +1,29 @@
 import './wb-section.css';
 
+import React from 'react';
+
 import wbLogoBig from './../../img/wb-section/wb-logo-bg.png';
+import wbLogoMin from './../../img/wb-section/wb-logo.png';
 
 const WbSection = () => {
+	const [width, setWidth] = React.useState(window.innerWidth);
+	const breakpoint = 940;
+	let wbLogo;
+	React.useEffect(() => {
+		const handleResizeWindow = () => setWidth(window.innerWidth);
+		// subscribe to window resize event "onComponentDidMount"
+		window.addEventListener('resize', handleResizeWindow);
+		return () => {
+			// unsubscribe "onComponentDestroy"
+			window.removeEventListener('resize', handleResizeWindow);
+		};
+	}, []);
+	if (width > breakpoint) {
+		wbLogo = wbLogoBig;
+	} else {
+		wbLogo = wbLogoMin;
+	}
+
 	return (
 		<div className='wb-section'>
 			<div className='wb-section__column'>
@@ -27,7 +48,7 @@ const WbSection = () => {
 					target='_blank'
 					rel='noreferrer'
 				>
-					<img src={wbLogoBig} alt='wbLogoBig' className='wb-logo-img' />
+					<img src={wbLogo} alt='wbLogoBig' className='wb-logo-img' />
 				</a>
 			</div>
 		</div>

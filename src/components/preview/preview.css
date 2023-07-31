@@ -30,6 +30,7 @@
 	flex-wrap: nowrap;
 
 	column-gap: 10px;
+	row-gap: 30px;
 
 	padding: 20px 0;
 }
@@ -88,8 +89,8 @@
 }
 
 @media (max-width: 1060px) {
-	.preview-column-imgDown {
-		order: 999;
+	.preview-column-imgUp {
+		order: -1;
 	}
 	.preview-row {
 		flex-wrap: wrap;
@@ -97,16 +98,16 @@
 }
 
 @media (max-width: 640px) {
-	.preview-column-up {
-		align-items: center;
-
-		text-align: center;
-	}
-
 	.preview-column-down {
-		align-items: center;
+		align-items: left;
 
-		text-align: center;
+		text-align: left;
+	}
+}
+
+@media (max-width: 530px) {
+	.preview-column__text {
+		padding: 0 0;
 	}
 }
 
