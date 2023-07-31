@@ -103,4 +103,9 @@
 	.nav-list {
 		column-gap: 20px;
 	}
+
+	.other-nav::before {
+		left: 0;
+		width: 100%;
+	}
 }
