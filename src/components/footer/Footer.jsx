@@ -35,7 +35,7 @@ const Footer = () => {
 										alt='footer-mail-icon'
 										src={footerIconMail}
 									/>
-									<p>alex12332@list.ru</p>
+									<p>office@newport23.ru</p>
 								</div>
 							</a>
 							<a href='tel:+79181309620' className='footer-link-text'>
@@ -45,7 +45,7 @@ const Footer = () => {
 										alt='footer-phone-icon'
 										src={footerIconPhone}
 									/>
-									<p>+7 (918) 130-96-20</p>
+									<p>+7 (918) 064-10-40</p>
 								</div>
 							</a>
 							<a
@@ -108,10 +108,18 @@ const Footer = () => {
 						>
 							Посмотреть товары
 						</a>
-						<a href='#!' className='footer-link-text'>
+						<NavLink
+							to='/Landing-pooshka/contacts'
+							className='footer-link-text'
+						>
 							Задать вопрос
-						</a>
-						<a href='#!' className='footer-link-text'>
+						</NavLink>
+						<a
+							href='https://www.wildberries.ru/seller/1202796#c148101751'
+							target='_blank'
+							rel='noreferrer'
+							className='footer-link-text'
+						>
 							Отзывы
 						</a>
 					</div>

@@ -34,7 +34,7 @@ const Contacts = () => {
 								className='contact-ico'
 							/>
 							<div className='contact-text'>
-								<h4 className='title-4'>+7 (999) 633-98-77</h4>
+								<h4 className='title-4'>+7 (918) 064-10-40</h4>
 							</div>
 						</li>
 						<li className='contact-list__item'>
@@ -44,7 +44,7 @@ const Contacts = () => {
 								className='contact-ico'
 							/>
 							<div className='contact-text'>
-								<h4 className='title-4'>+7 (999) 633-98-77</h4>
+								<h4 className='title-4'>+7 (918) 064-10-40</h4>
 							</div>
 						</li>
 						<li className='contact-list__item'>
@@ -54,7 +54,7 @@ const Contacts = () => {
 								className='contact-ico'
 							/>
 							<div className='contact-text'>
-								<h4 className='title-4'>mattakvvshi@yandex.ru</h4>
+								<h4 className='title-4'>office@newport23.ru</h4>
 							</div>
 						</li>
 					</ul>
