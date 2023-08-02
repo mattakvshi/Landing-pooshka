@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Landing-pooshka/static/css/main.093d0f65.css",
-    "main.js": "/Landing-pooshka/static/js/main.69fbc0bb.js",
+    "main.css": "/Landing-pooshka/static/css/main.f079e03d.css",
+    "main.js": "/Landing-pooshka/static/js/main.ea7a0102.js",
     "static/media/tsh-3.jpg": "/Landing-pooshka/static/media/tsh-3.bbfcf91d7898e38e7121.jpg",
     "static/media/tsh-4.jpg": "/Landing-pooshka/static/media/tsh-4.e18a1bf446f9f5f9a483.jpg",
     "static/media/tsh-6.jpg": "/Landing-pooshka/static/media/tsh-6.808a11986cf85267dd5e.jpg",
@@ -55,11 +55,11 @@
     "index.html": "/Landing-pooshka/index.html",
     "static/media/phone-icon.svg": "/Landing-pooshka/static/media/phone-icon.785fab88b316a20bec581b81353cfee4.svg",
     "static/media/email.svg": "/Landing-pooshka/static/media/email.b4c62f31e7764ef7cb9d6ec4263f3e9f.svg",
-    "main.093d0f65.css.map": "/Landing-pooshka/static/css/main.093d0f65.css.map",
-    "main.69fbc0bb.js.map": "/Landing-pooshka/static/js/main.69fbc0bb.js.map"
+    "main.f079e03d.css.map": "/Landing-pooshka/static/css/main.f079e03d.css.map",
+    "main.ea7a0102.js.map": "/Landing-pooshka/static/js/main.ea7a0102.js.map"
   },
   "entrypoints": [
-    "static/css/main.093d0f65.css",
-    "static/js/main.69fbc0bb.js"
+    "static/css/main.f079e03d.css",
+    "static/js/main.ea7a0102.js"
   ]
 }
