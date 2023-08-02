@@ -1001,6 +1001,10 @@ body {
 	.about-target__text em {
 		font-size: 20px;
 	}
+
+	.title-3-about {
+		font-size: 24px;
+	}
 }
 
 @media (max-width: 370px) {
