@@ -9,7 +9,7 @@ const ComebackButton = () => {
 		<section className='comeback-button-section'>
 			<div className='container'>
 				<div className='comeback-button-wrapper'>
-					<NavLink to='/Landing-pooshka/products'>
+					<NavLink to='/products'>
 						<div className='comeback-button'>
 							<img
 								src={comebackImg}
