@@ -21,7 +21,7 @@ const Footer = () => {
 				<div className='footer-wrapper'>
 					<div className='footer-col'>
 						<div className='footer-col__first'>
-							<NavLink to='/home'>
+							<NavLink to='/'>
 								<img
 									className='logo-footer'
 									src={footerLogo}
@@ -67,7 +67,7 @@ const Footer = () => {
 					</div>
 					<div className='footer-col'>
 						<h3 className='title-3-footer'>Ссылки</h3>
-						<NavLink to='/home' className='footer-link-text'>
+						<NavLink to='/' className='footer-link-text'>
 							Главная
 						</NavLink>
 						<NavLink to='/products' className='footer-link-text'>

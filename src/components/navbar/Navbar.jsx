@@ -16,7 +16,7 @@ const Navbar = () => {
 	var navLogo;
 
 	const activeURL = window.location.pathname;
-	if (activeURL === '/home') {
+	if (activeURL === '/') {
 		navClass = normalNav;
 		navLogo = logoWhite;
 	} else {
@@ -28,13 +28,13 @@ const Navbar = () => {
 		<nav className={navClass}>
 			<div className='container-nav'>
 				<div className='nav-row'>
-					<NavLink to='/home' className='logo'>
+					<NavLink to='/' className='logo'>
 						<img src={navLogo} alt='logo' width='250px' height='60px' />
 					</NavLink>
 					<ul className='nav-list'>
 						<li className='nav-list__item'>
 							<NavLink
-								to='/home'
+								to='/'
 								className={({ isActive }) => {
 									return isActive ? activeLink : normalLik;
 								}}
